@@ -1,8 +1,8 @@
 body {
   background-color: black;
 }
-h1 {
-  color: yellow;
+h1.dotted {
+  border-style: dotted;
 }
 p {
   color: red;
