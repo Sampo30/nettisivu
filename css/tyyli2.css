@@ -1,9 +1,13 @@
 body {
-  background-color: black;
-}
-h1.dotted {
-  border-style: dotted;
-}
-p {
-  color: red;
-}
+          background-color: brown;
+        }
+        h1.dotted {
+          border-style: dotted;
+        }
+        p.solid {
+        	border-style: solid;
+            border-radius: 10px;
+            padding: 35px;
+          background-color: yellow;
+        }
+        
