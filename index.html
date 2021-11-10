@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<style>
+        .kuva {
+        position: relative;
+        }
+
+        .topright {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+          font-size: 18px;
+        }
+
+        img { 
+          width: 100%;
+          height: auto;
+          opacity: 1;
+        }
+    </style>
+    <meta charset="utf-8" />
+        <title>Paltypus</title>
+        <link rel="stylesheet" type="text/css" href="css/tyyli2.css">
     <meta charset="utf-8" />
     <title>Sampon maailma</title>
     <link rel="stylesheet" type="text/css" href="css/tyyli.css">
@@ -9,8 +30,10 @@
 
     <h1>Tervetuloa Sampon maailmaan!</h1>
     <p>Mitä täällä on? No sitä en tiedä edes minä vielä.</p>
-    <a href="https://sampo30.github.io/nettisivu/second.html">Vesinokkaeläin!</a>
-    <img src="https://cdn.pixabay.com/photo/2016/05/20/21/57/football-1406106_1280.jpg" alt="Liekehtivä pallo">
+    <div class="kuva">
+  		<img src="https://cdn.pixabay.com/photo/2016/05/20/21/57/football-1406106_1280.jpg" alt="Cinque Terre" width="1000" height="300">
+ 	 	<div class="topright"><a href="https://sampo30.github.io/nettisivu/second.html">Vesinokkaeläin!</a></div>
+	</div>
 
   </body>
 </html>
